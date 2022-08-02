@@ -1,0 +1,11 @@
+{"source_s3_path" : "s3://source-iot-dumps/iot-sensor-dumps/" ,
+"sink_s3_path": "s3a://datalake-platform/raw/",
+"role_arn":"arn:aws:iam::211850853456:role/dummy-role",
+"catalog_db_name" : "iot_source_dumps_db",
+"catalog_table_prefix" : "iot_source",
+"crawler_name": "iot-source-data-crawler",
+"region" : "us-west-2",
+"archival_folder" : "iot-sensor-dumps-archived",
+"rehydration_folder" : "iot-sensor-dumps",
+"results_loc" : "s3://datalake-platform/athena/"
+}

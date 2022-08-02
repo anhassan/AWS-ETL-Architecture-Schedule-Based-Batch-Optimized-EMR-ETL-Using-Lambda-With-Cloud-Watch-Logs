@@ -360,3 +360,4 @@ create_update_data_catalog(merged_df,CATALOG_DB_NAME,CATALOG_TABLE_PREFIX,SINK_S
 # Archiving S3 files to ensure that incremental data processing takes place
 archive_s3_files(df,SOURCE_S3_PATH,SOURCE_S3_PATH,ARCHIVE_FOLDER)
 
+
